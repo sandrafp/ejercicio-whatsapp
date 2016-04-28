@@ -1,1 +1,65 @@
-/*Inserta tu css aqui*/
+.row {
+	padding: 0%;
+	margin: 0%;
+}
+.fondo-color:before {
+	background-color: #009688;
+	width: 100%;
+	height: 125px;
+	position: fixed;
+}
+.contenido {
+	position: absolute;
+	background-color: #F5F5F5;
+	margin-top: 3%;
+}
+.borde {
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+#andrea {
+	width: 10%;
+	border-radius: 50%;
+	margin: 3%;
+	margin-right: 75%;
+}
+.chat-panel {
+	background-image: url("../image/chat-panel-bg.png");
+}
+
+.laboratoria-chile {
+	display: inline-block;
+}
+#laboratoria {
+	border-radius: 50%;
+	width: 37px;
+}
+/*chat dialogo*/
+.chat-panel .mensaje-verde {
+	text-align: right;
+
+}
+.mensajes, .mensaje-verde {
+	background-color: white;
+	padding: 0% 2%;
+	display: block;
+	border-radius: 3px;
+	width: 361px;
+    margin-bottom: 2%;
+}
+.mensajes span {
+	display: block;
+}
+.azul {
+	color: #c1d4f0;
+}
+.rosa {
+	color: #e56ac0;
+}
+.naranja {
+	color: #e5ba2c; 
+}
+.mensaje-verde {
+	background-color: #dcf8c6;
+}
+
